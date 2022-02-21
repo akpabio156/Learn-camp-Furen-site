@@ -1,0 +1,121 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap');
+:root {
+    --pink: #FD3D65;
+    --grey: #e4e4e4;
+}
+
+body {
+    font-family: 'GillSans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caliban {
+    font-family: caliban-std;
+}
+
+.bookNow {
+    background-color: var(--pink);
+    color: #ffffff;
+    border: none;
+    padding: .7em 2em;
+}
+
+.encodesans {
+    font-family: Encode Sans;
+}
+
+
+/* 
+    NAVBAR
+*/
+
+.navigationBar {
+    padding: 1em 5em;
+}
+
+.navTitle {
+    font-family: caliban-std;
+    font-size: 40px;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px 50px 0 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul {
+    font-size: 20px
+}
+
+@media (max-width: 991px) {
+    ul li {
+        list-style: none;
+        margin: 0 0 1rem 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .navigationBar {
+        padding: 1em 3em;
+    }
+}
+
+
+/* 
+H E A D E R
+*/
+
+.header {
+    background-image: url(/Images/TS_Hotel_King_lowrez-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.685);
+    background-blend-mode: darken;
+    height: 600px;
+    /* line-height: 550px */
+}
+
+.email {
+    /* padding: 0 2em; */
+}
+
+
+/* 
+F O O T E R
+*/
+
+.footer {
+    padding: 10em 5em 1.5em 5em;
+    background-color: var(--grey);
+}
+
+.footerTitle {
+    font-family: caliban Std;
+    font-size: 40px;
+}
+
+.footerNav__container span li {
+    margin: 10px 0 0 0;
+}
+
+@media (max-width: 990px) {
+    .footerTitle {
+        text-align: center;
+    }
+}
+
+@media (max-width: 950px) {
+    .footerNav__container ul {
+        display: block;
+    }
+    .footerBtn {
+        margin: 30px auto;
+    }
+    .footerNav {
+        text-align: center;
+    }
+}
